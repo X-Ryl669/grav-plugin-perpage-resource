@@ -1,0 +1,4 @@
+en:
+  PLUGIN_PPR:
+    FILENAME: "Name of per page YAML file"
+    FILENAME_HELP: "The name of the YAML file to look for in each page folder to list additional resources to load"

@@ -1,0 +1,32 @@
+name: Per page resources
+version: 1.0.0
+description: Adds some custom resources on some pages of your Grav site
+icon: plug
+author:
+  name: X-Ryl669
+  email: boite.pour.spam@gmail.com
+homepage: https://github.com/X-Ryl669/grav-plugin-perpage-resource
+keywords: grav, plugin, javascript, stylesheet, assets
+bugs: https://github.com/X-Ryl669/grav-plugin-perpage-resource/issues
+docs: https://github.com/X-Ryl669/grav-plugin-perpage-resource/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    
+    base_path:
+      type: text
+      label: PLUGIN_PPR.FILENAME
+      help: PLUGIN_PPR.FILENAME_HELP
+
