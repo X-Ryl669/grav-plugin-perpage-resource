@@ -46,7 +46,7 @@ class PerPageResourcesPlugin extends Plugin
         if (file_exists($expectedPathName)) {
            // Load and parse YAML content here
            $file = CompiledYamlFile::instance($expectedPathName);
-           $data = $file->file->content(null, true);
+           $data = $file->content(null, true);
            if (!empty($data['js'])) {
               foreach($data['js'] as $js) 
                  $this->grav['assets']->addJs($bp.$js);
