@@ -7,10 +7,10 @@ use Grav\Common\File\CompiledYamlFile;
 
 
 /**
- * Class PPRPlugin
+ * Class PerPageResourcesPlugin
  * @package Grav\Plugin
  */
-class PPRPlugin extends Plugin
+class PerPageResourcesPlugin extends Plugin
 {
     /**
      * @return array

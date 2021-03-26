@@ -1,4 +1,5 @@
 name: Per page resources
+slug: per-page-resources
 version: 1.0.0
 description: Adds some custom resources on some pages of your Grav site
 icon: plug
